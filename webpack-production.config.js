@@ -33,7 +33,15 @@ const config = {
     new TransferWebpackPlugin([
       {from: 'www'},
     ], path.resolve(__dirname, 'src')),
+    new webpack.ProvidePlugin({
+      $: "neat",
+    })
   ],
+  externals: {
+    neat: "neat",
+    marked:"marked",
+    hljs:"hljs"
+  },
   module: {
     loaders: [
       {

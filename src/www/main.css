@@ -1,8 +1,115 @@
+@import url(style.css);
 html {
-  font-family: 'Roboto', sans-serif;
-}
+  font-family: 'Roboto',"Microsoft YaHei", sans-serif;
+  -webkit-user-select: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 body {
-  font-size: 13px;
+  font-size: 15px;
+  color: #333; }
+
+.body {
+  padding-top: 64px; }
+
+.footer {
+  padding: 40px 20px;
+  background: #333;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center; }
+
+h1, h2, h3, h4 {
+  color: #000; }
+
+.content {
+  padding: 0 18px 20px 18px;
+  line-height: 1.76em;
+  min-height: 80%; }
+  .content h1 {
+    padding-bottom: 10px;
+    border-bottom: #ddd 1px solid;
+    padding-top: 5px; }
+
+@media (min-width: 768px) {
+  html {
+    -webkit-user-select: inherit; }
+
+  .content {
+    padding: 30px 120px 30px 90px; } }
+.row {
+  margin: 0; }
+
+.container-fluid {
+  padding: 0; }
+
+.home .feature-block {
+  padding: 50px 0; }
+  .home .feature-block .box:hover {
+    box-shadow: 2px 2px 10px #aaa;
+    float: left;
+    width: 100%; }
+  .home .feature-block .col-md-4 {
+    padding: 10px 5px; }
+  .home .feature-block .center-block {
+    float: none;
+    overflow: hidden; }
+  .home .feature-block .title {
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background: #EEEEEE; }
+.home .gray-block {
+  background: #eeeeee;
+  padding: 50px 0; }
+  .home .gray-block .center-block {
+    float: none;
+    color: #555;
+    line-height: 2; }
+
+.markdown ul:not(.pre-numbering), .markdown ol {
+  padding-left: 18px; }
+
+pre {
+  position: relative;
+  margin-bottom: 24px;
+  border-radius: 3px;
+  border: 1px solid #C3CCD0;
+  background: #FFF; }
+
+code {
+  display: block;
+  padding: 12px 24px;
+  font-weight: 300;
+  font-size: 0.8em;
   line-height: 20px;
-}
+  margin: 10px 0; }
+
+pre code {
+  margin: 0; }
+
+pre code {
+  white-space: inherit; }
+
+code.has-numbering {
+  margin-left: 21px; }
+
+.pre-numbering {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  padding: 10px 2px 9px 0;
+  border-right: 1px solid #C3CCD0;
+  border-radius: 3px 0 0 3px;
+  background-color: #EEE;
+  text-align: right;
+  font-size: 0.8em;
+  line-height: 20px;
+  color: #AAA;
+  text-align: center;
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=main.css.map */
