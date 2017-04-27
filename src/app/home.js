@@ -26,7 +26,7 @@ export default class Home extends React.Component {
                     <div style={{fontSize:50,marginBottom:50,marginTop:-30,marginLeft:40}}>Neat.js</div>
                     <div >追求极致优雅、简洁、高效的, 专为现代浏览器, 移动端端优先的 Javascript 库 !</div>
                     <RaisedButton label="下载" labelStyle={{color:"rgb(0, 188, 212)"}} style={{marginTop:20}}
-                                  href="https://github.com/wendux/Neat/dist"/>
+                                  href="https://github.com/wendux/Neat/tree/master/dist"/>
                 </div>
                 <div className="container-fluid gray-block">
                     <div className="row">
